@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700|Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 /* ======fonts====== */
 .oxygen {
   font-family: 'Oxygen', sans-serif;
 }
 
+.o400 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+}
+
 .raleway {
   font-family: 'Raleway', sans-serif;
+}
+
+.ps2p{
+  font-family: 'Press Start 2P', cursive;
 }
 
 .twenty {
@@ -20,8 +29,17 @@
 .underline {
   text-decoration: underline;
 }
+
 .bold {
   font-weight: bold;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.black-text {
+  color: #000;
 }
 
 /* ===border=== */
@@ -31,11 +49,93 @@
 .border-b {
   border: 2px solid #000;
 }
+
+/* all */
+
+body {
+  position: relative;
+}
+
+.sect-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top-pad {
+  margin-top: 100px;
+}
+
+.home-top-pad {
+  padding-top: 100px;
+}
+
 /* ===nav=== */
 
+.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #4bacb8;
+}
+.navbar-brand {
+  position: relative;
+  background-image: url("../img/logo2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 150px;
+}
+
+.nav-link {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    color: #66b2c4;
+}
+.nav-item {
+
+    border-radius: 20px;
+}
+.nav-item:active {
+  background-color: #4bacb8;
+}
+.nav-pills {
+  border-bottom: 2px solid #99e4f7;
+}
 
 /* ===content=== */
+.home {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
+.typing h2 {
+  overflow: hidden;
+  color: #D74E8A;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto;
+  border-right: .2em solid black;
+  letter-spacing: .15em;
+  animation:
+  typing-effect 4.5s steps(30, end),
+  blinking-caret .5s step-end infinite;
+  font-size: 28px;
+}
+
+.skill {
+  padding-top: 20px;
+}
+
+
+/* proj section */
+.projects {
+  background-color: #cdffff;
+  color: #66b2c4;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+.contact {
+  padding-top: 200px;
+  margin-bottom: 200px;
+}
 
 /* ===btn & icons== */
 
@@ -43,3 +143,13 @@
 
 
 /* ===query & animation */
+
+@keyframes typing-effect {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
