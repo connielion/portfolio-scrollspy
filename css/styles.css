@@ -54,6 +54,10 @@
   border: 2px solid #000;
 }
 
+.border-top {
+  border-top: 2px solid #D74E8A;
+}
+
 /* all */
 
 body {
@@ -127,16 +131,23 @@ body {
 
 .skill {
   margin-top: 80px;
-  height: 100vh;
+
 }
 
+.skill-icons {
+  display: flex;
+  flex-direction: row;
+}
+.fab {
+  padding: 20px;
+}
 
 /* proj section */
 .projects {
   background-color: #fff;
   color: #f44e96;
   padding-top: 80px;
-  padding-bottom: 80px;
+  
 
 }
 
