@@ -126,7 +126,7 @@ body {
 }
 
 .skill {
-  margin-top: 100px;
+  margin-top: 80px;
   height: 100vh;
 }
 
@@ -135,7 +135,7 @@ body {
 .projects {
   background-color: #fff;
   color: #f44e96;
-  padding-top: 200px;
+  padding-top: 80px;
   padding-bottom: 80px;
 
 }
@@ -174,55 +174,30 @@ body {
   50% { border-color: orange }
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* when width is less than 600px */
 @media only screen and (max-width: 600px) {
-  .typing h2 {
-    display: none;
-  }
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 600px) {
-  .typing h1 {
-    display: inline;
-  }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .typing h1 {
-    display: none;
-  }
-
-
-}
-
-
-@media only screen and (max-width: 768px) {
-  .typing h2 {
-    display: none;
+  .home {
+    padding-top: 20px;
   }
   .hi {
-    font-size: 28px;
-  }
-  .lie {
-    font-size: 22px;
-  }
-}
-
-/* display when screen is 1200+ px */
-@media only screen and (min-width: 1200px) {
-  .typing h1 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .typing h1 {
-    display: none;
+    font-size: 38px;
+    color: #D74E8A;
   }
   .typing h2 {
-    font-size: 14px;
+    display: none;
+  }
+  .nav-pills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+
+}
+@media only screen and (min-width: 600px) {
+  
+  .typing h1 {
+    display: none;
   }
 
 
