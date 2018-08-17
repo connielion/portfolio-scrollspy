@@ -42,6 +42,10 @@
   color: #000;
 }
 
+.pink {
+  color: #D74E8A;
+}
+
 /* ===border=== */
 .round {
   border-radius: 50%;
@@ -133,7 +137,7 @@ body {
   color: #f44e96;
   padding-top: 200px;
   padding-bottom: 80px;
-  height: 100vh;
+
 }
 
 .proj-cards {
@@ -141,10 +145,11 @@ body {
 }
 
 .contact {
-  padding-top: 200px;
-  margin-bottom: 0px;
-  background-color: white;
-  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  color: #D74E8A;
+  
 }
 .about-list {
   list-style: none;
