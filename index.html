@@ -23,12 +23,13 @@
     <li class="nav-item">
       <a class="nav-link" href="#home">home</a>
     </li>
+    <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
     <li class="nav-item">
       <a class="nav-link" href="#projects">projects</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="#contact">contact</a>
+      <a class="nav-link" href="#contact">about | contact</a>
     </li>
 
   </ul>
@@ -45,9 +46,9 @@
         <div class="col-lg text-center">
 
 
-          <h1 class="o400 display-2">Hi. I'm Connie Lai.</h1>
+          <h1 class="o400 hi display-2">Hi. I'm Connie Lai.</h1>
 
-            <h3 class="lie">(I'd say I'm pretty honest though).</h3>
+            <h3 class="lie">(Last name pronounced like 'lie', but I'm an honest person).</h3>
 
         <!--end col-->
         </div>
@@ -60,51 +61,62 @@
           <div class="typing">
 
               <h2 class="ps2p">Jr. Front-end Web Developer.</h2>
-
+              <h1 class="hidden-nm">Front-end Developer.</h1>
           </div>
         </div>
       </div>
+    
+  </div>
+  <!--end home sect-->
 
-      <div class="row text-center sect-padding">
-        <div class="col-lg">
-
-          <div class="container jumbotron">
-
-                                <h3 class="skill oxygen underline">What I use:</h3>
-                                <div class="container">
-                                  <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Google Search.</li>
-                                    <li class="list-group-item">HTML 5 and CSS 3.</li>
-                                    <li class="list-group-item">ES6 Javascript.</li>
-                                    <li class="list-group-item">Angular 6 & Angular CLI</li>
-                                    <li class="list-group-item">Bootstrap 3 & 4.</li>
-                                  </ul>
-                                </div>
-          </div>
-
-        </div>
-        <!--end col 1-->
-        <div class="col-lg">
-
+  <!--skills sect-->
+  <div class="container-fluid sect-padding skills" id="skills">
+      <div class="row text-center sect-padding skill">
+          <div class="col-lg">
+  
             <div class="container jumbotron">
-
-                <h3 class="skill oxygen underline">What I want to do:</h3>
-                <div class="container">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">SQL.</li>
-                    <li class="list-group-item">MongoDB.</li>
-                    <li class="list-group-item">Express.</li>
-                    <li class="list-group-item">Python</li>
-                    <li class="list-group-item bold">*insert endless list*</li>
-                  </ul>
+  
+                                  <h3 class=" oxygen underline">Current Skills:</h3>
+                                  <div class="container">
+  
+                                    <ul class="list-group list-group-flush">
+  
+                                      <li class="list-group-item">Google Search.</li>
+                                      <li class="list-group-item"><span class="bold">I type in:</span> HTML5, CSS3, SCSS, ES6 Javascript.</li>
+                                      <li class="list-group-item"><span class="bold">IDE:</span> Atom, VS Code, Sublime Text.</li>
+                                      <li class="list-group-item"><span class="bold">Frameworks & Libraries:</span> Bootstrap(3 & 4), Materialize, Angular Materials & CLI.</li>
+                                      <li class="list-group-item"> <span class="bold">Version control:</span> Git.</li>
+                                      <li class="list-group-item"><span class="bold">Other tools:</span> npm, Slack, Asana...</li>
+                                  
+                                    </ul>
+                                  </div>
+            </div>
+  
+          </div>
+          <!--end col 1-->
+          <div class="col-lg">
+  
+              <div class="container">
+  
+                  <h3 class="oxygen underline">What I want to learn some day:</h3>
+                  <div class="container">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">SQL.</li>
+                      <li class="list-group-item">MongoDB, noSQL.</li>
+                      <li class="list-group-item">Express and Node.</li>
+  
+                      <li class="list-group-item">Python</li>
+                      <li class="list-group-item">Maybe Ruby on Rails? PHP?</li>
+                      <li class="list-group-item bold">*insert endless list*</li>
+                    </ul>
+                  </div>
+  
+  
                 </div>
-
-
-              </div>
+          </div>
+  
+          <!--end col2-->
         </div>
-
-        <!--end col2-->
-      </div>
   </div>
 
   <!--projects-->
@@ -112,61 +124,87 @@
       <div class="row">
         <div class="col-lg text-center">
 
-
           <h1 class="bold oxygen">Recent projects...</h1>
 
-
-          <div class="card-deck">
+          <div class="card-deck proj-cards">
         <!--card 1-->
             <div class="card">
               <img class="card-img-top" src="img/restaurante.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Restaurante mock site.</h5>
+                <p class="card-text">This is a mock restaurant site, made with Bootstrap 3, HTML5, CSS3.</p>
+                <p class="card-text"><small class="text-muted">Last updated a few months ago...</small></p>
               </div>
             </div>
         <!--card 2-->
             <div class="card">
               <img class="card-img-top" src="img/todoapp.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">2DO: ES6 Todo App</h5>
+                <p class="card-text">This is a very simple todo app made using mainly Javascript, DOM manipulation practice.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 months ago...</small></p>
               </div>
             </div>
         <!--card 3-->
             <div class="card">
               <img class="card-img-top" src="img/expense.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Angular 6 Expense Tracker</h5>
+                <p class="card-text">This is a project made for a coding challenge in July 2018.</p>
+                <p class="card-text"><small class="text-muted">Last updated 2 weeks ago...</small></p>
               </div>
             </div>
             <!--end col-->
             </div>
         </div>
-      </div>
+      </div><!--end row-->
   </div>
-</div>
+
 
 
 <!--contact-->
-<div class="container-fluid bg-light sect-padding contact" id="contact">
-    <div class="row">
-      <div class="col-lg text-center">
-        <h1 class="display-1">Let's get in touch!</h1>
+<div class="container-fluid sect-padding contact" id="contact">
+  <div class="row">
+    <div class="col-lg text-center">
 
+      <h1 class="text-center">A bit more about me...</h1>
 
-        <h2 class="display-3">My contact info:</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi maiores, quia temporibus qui est tenetur accusamus quaerat laudantium dolores voluptatum doloremque harum repudiandae deserunt corporis debitis, aperiam illo quod ipsum.</p>
-      </div>
+      <ul class="text-center about-list">
+        <li class="text-center">I study web development at Geekwise Academy, located in Fresno, California.</li>
+        <li class="text-center">I began learning how to make websites using HTML 5 and CSS 3 in early 2018. </li>
+        <li class="text-center">I got a biology degree from UC Riverside in June 2017, but I still decided to learn to make web sites because coding's fun!</li> 
+      </ul>
+
     </div>
-</div>
 
+  </div>
+  <div class="row">
+    <div class="col-lg">
+        <ul class="text-center">
+            <li>What I do in my free time: surf the web, listen to music, play violin, draw, learn languages(not programming ones :P).</li>
+            <li>I'm a foodie.</li>
+            <li>I communicate using mainly English and Chinese(Mandarin and Cantonese). I can understand basic Japanese thanks to much time spent reading manga and watching anime. Also know took Spanish classes in high school and college too. It's California after all! </li>
+          </ul>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-lg text-center">
+          <h1 class="display-1">Let's get in touch!</h1>
+      </div>
+  </div>
+
+  <div class="row contact-info-row">
+      <div class="col-lg text-center">
+        
+          <ul class="list-group mx-auto d-block">
+              <li class="list-group-item"><span class="bold">Email me:</span><a href="mailto:connielion011@gmail.com">connielion011@gmail.com</a></li>
+              <li class="list-group-item"><span class="bold">Phone:</span> 559-281-6498.</li>
+            </ul>
+      </div>
+  </div>
 
 </div>
+<!--end contact container-->
 
 
   <!--scripts-->
