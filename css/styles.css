@@ -70,12 +70,10 @@ body {
 }
 
 .top-pad {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-.home-top-pad {
-  padding-top: 100px;
-}
+
 
 /* ===nav=== */
 
@@ -101,14 +99,14 @@ body {
 .nav-item:active {
   background-color: #4bacb8;
 }
-.nav-pills {
+.navbar {
   border-bottom: 2px solid #99e4f7;
 }
 
 /* ===content=== */
 .home {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   height: 100vh;
 }
 
@@ -146,9 +144,12 @@ body {
 .projects {
   background-color: #fff;
   color: #f44e96;
-  padding-top: 80px;
+  padding-top: 20px;
   
 
+}
+.border {
+  border: 1px solid #f44e96;
 }
 
 .proj-cards {
@@ -164,8 +165,10 @@ body {
 }
 .about-list {
   list-style: none;
-  font-size: 20px; 
+  font-size: 20px;
+  line-height: 200%;
 }
+
 
 
 /* ===btn & icons== */
@@ -200,7 +203,7 @@ body {
   .nav-pills {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
 
